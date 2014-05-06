@@ -6,6 +6,7 @@ Icon
 .zip
 *.jar
 *.txt
+auth.js
 
 data/*
 

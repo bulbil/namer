@@ -39,8 +39,7 @@ var namer = {
 	        type: 'GET',
 	        url: crntURL,
 	        data: namer.args,
-	        dataType: 'jsonp',
-	        dataFilter: function(d, e) { console.log(e)},
+	        dataType: 'jsonp json',
 	        error: function(e, f, g) {
 	            console.log(e);
 	            console.log(f);

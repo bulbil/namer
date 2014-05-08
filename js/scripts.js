@@ -28,9 +28,9 @@ var namer = {
 		},
 
 
-	getPages: function(getMediaCountBool){
+	getPages: function(collectionListBool){
 
-		var crntURL = (getMediaCountBool == true) ?
+		var crntURL = (collectionListBool == true) ?
 			namer.url.base + namer.url.port + '/' + namer.url.params
 			: implode('/', namer.url);
 

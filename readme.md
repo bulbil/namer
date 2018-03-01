@@ -1,4 +1,4 @@
-####namer
+#### namer
 
 A crowd-source metadata tool for Swarthmore College's contentDM instance.
 
